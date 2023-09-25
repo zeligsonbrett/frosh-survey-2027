@@ -30,10 +30,10 @@ body {
   gap: 1%;
   margin-top: 1vh;
   margin-bottom: 1vh;
-  margin-left: 1vw;
-  margin-right: 1vw;
+  margin-left: 1vh;
+  margin-right: 1vh;
   height: 98vh;
-  width: 98vw;
+  width: calc(100vw - 2vh);
   z-index: 1000;
   display: flex;
   flex-direction: column;
@@ -399,9 +399,6 @@ body {
 }
 
 .subtitlecomm {
-  /* margin-left: 13vw;
-  margin-right: 5vw; */
-  background-color: rgb(204, 0, 71);
   padding: 2%;
   padding-bottom: 1%;
   margin-bottom: 2%;
@@ -432,6 +429,11 @@ body {
   padding: 1%;
 }
 
+#methodology-text h1{
+  font-size: 6vw;
+  color: #efefef
+}
+
 .side-nav {
   width: 10vw;
   position: sticky;
@@ -441,7 +443,8 @@ body {
   flex-direction: column;
   gap: 10px;
   padding: 1%;
-  margin-bottom: -100px;
+  margin-top: 100px;
+  margin-bottom: -10%;
   background-color: rgb(204, 0, 71);
 }
 
@@ -552,7 +555,7 @@ body {
 .intro-text {
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 5%;
+  margin-bottom: -5%;
   font-size: 20px;
   margin-top: 2%;
   padding: 2%;
@@ -686,7 +689,7 @@ body {
 }
 
 .page-nav {
-  width: 53vw;
+  width: 47vw;
   margin: 0;
   margin-left: -10px;
   padding: 0;
@@ -798,7 +801,7 @@ h1 {
 }
 
 .credits {
-  width: 65vw;
+  width: 60vw;
   padding: 5%;
   padding-left: 30px;
   padding-right: 30px;
@@ -842,7 +845,7 @@ h1 {
   display: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .side-nav {
     display: none;
   }
@@ -876,14 +879,9 @@ h1 {
   .intro-text {
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 5%;
   }
 
-  .subtitlecomm {
-    /* margin-left: 5vw;
-    margin-right: 5vw; */
-    /* position: relative;
-    z-index: 4000 !important; */
-  }
 
   .top-banner {
     height: 25vh;
@@ -926,12 +924,13 @@ h1 {
   }
 
   .backToTop{
-    font-size: 7vw;
-    width: 8vw;
-    height: 8vw;
+    font-size: 6vw;
+    width: 7vw;
+    height: 7vw;
     z-index: 200;
     text-align: center;
-    padding-left: 0px;
+    padding-top: 5px;
+    padding-left: 2px;
   }
 
   .list-group-container{
@@ -979,6 +978,9 @@ h1 {
   #top-nav .prince{
     display: none;
   }
+
+  #methodology-text h1{
+    font-size: 10vw;
 }
 
 /* sets different rules for narrower screens (usually meaning mobile) If
