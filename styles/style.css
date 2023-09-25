@@ -556,7 +556,7 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: -5%;
-  font-size: 20px;
+  font-size: 1.8vw;
   margin-top: 2%;
   padding: 2%;
   color: white;
@@ -880,6 +880,7 @@ h1 {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
+    font-size: 20px;
   }
 
 
