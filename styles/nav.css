@@ -93,13 +93,13 @@
   margin-top: 52px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 470px) {
   .menu-icon {
     display: block;
     font-size: 8vh;
     text-align: right;
     margin-top: -3vh;
-    margin-left: 1vh;
+    margin-left: 2vh;
   }
 
   .nav-links {
@@ -133,14 +133,5 @@
 
   .nav-brand {
     font-size: calc(0.5rem + 3vw);
-  }
-
-  #top-nav a{
-    padding: 6px;
-    font-size: 20px;
-  }
-
-  #top-nav{
-    top: -5px;
   }
 }
